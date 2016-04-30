@@ -1,0 +1,48 @@
+<style>
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+	font-family: arial;
+}
+a:visited {
+    color: #00bfff;
+    background-color: transparent;
+    text-decoration: none;
+	font-family: arial;
+}
+a:hover {
+    color: #ff00be;
+    background-color: transparent;
+    text-decoration: underline;
+	font-family: arial black;
+	font-size:13px;
+}
+<style>
+a:active {
+    color: Red;
+    background-color: transparent;
+    text-decoration: underline;
+	font-family: arial black;
+}
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    
+    background-color:#000000;
+	color:white;
+    height:500px;
+    width:100px;
+    float:left;
+    padding:10px;
+	}
+#iframes {
+	background-color:black;
+	float:Left;
+	padding:5px
+	}
+</style>
