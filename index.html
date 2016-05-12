@@ -1,62 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<title>Protopage!
-	</title>
-
 <head>
-<!-- offline testing href="C:\Users\NR\Desktop\Codeing Tool box\Protoweb\resources\Protostyle.css" -->
-<link rel="stylesheet" type="text/css" href="./Protostyle.css"/>
-	</head>
+    <title>Protomen Fan page!!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <style>
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
 
-<body Style=";background-color:black">
+        .row.content {
+            height: 450px
+        }
 
-<div id="header">
- <a href="http://imageshack.com/a/img903/1420/ixg7OM.png" target="iframe_a">
- <img src="http://imageshack.com/a/img911/6720/Bvxx82.jpg">
-</a>
-<br>
-<img src="http://i80.photobucket.com/albums/j161/mikedsm/megadance.gif">
-</div>
-<div id="nav">
-<p style="font-family:arial black;">
-Protomen Links
-</p>
+        .sidenav {
+            padding-top: 5px;
+            background-color: black;
 
+        }
 
- <a href="https://en.wikipedia.org/wiki/The_Protomen" target="iframe_a">
-WIKI
-</a>
-	<br>
-	<a href="http://www.protomen.com/" target="iframe_a">
- Offical Site
-</a>
-<br>
- <a href="http://protomen.gomerch.com/" target="iframe_a">
- Latest Merch
-</a>
-<br>
-<p style="font-family:arial black;">
-Social Media
-</p>
-<a href="https://twitter.com/Protomen" target="_blank">
-Twitter
-</a>
-<br>
-<a href="https://www.facebook.com/protomen/" target="_blank">
-Facebook
-</a>
-<br>
-<a href="https://www.reddit.com/r/Protomen" target="_blank">
-Reddit
-</a>
-</div>
-<div id="iframes">
-<iframe width="200%" height="150px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/123103514&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+
+            .row.content {
+                height: auto;
+            }
+        }
+
+        iframe {
+            background-color: black;
+        }
+    </style>
+</head>
+<body style="background-color:black">
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img height="40px"
+                                                  src="http://imageshack.com/a/img911/6720/Bvxx82.jpg"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="http://imageshack.com/a/img903/1420/ixg7OM.png" target="iframe_a">Home</a>
+                </li>
+                <li><a href="http://www.protomen.com/" target="iframe_a">
+                    Offical Site</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/The_Protomen" target="iframe_a">WIKI
+                </a>
+                </li>
+                <li><a href="http://soundmachinestore.bigcartel.com/" target="iframe_a">
+                    Latest Merch</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><img height="40px"
+                                     src="http://i80.photobucket.com/albums/j161/mikedsm/megadance.gif"></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="http://imageshack.com/a/img903/1420/ixg7OM.png" name="iframe_a">
 </iframe>
-<iframe width="200%" height="500px" frameborder="no" src="http://imageshack.com/a/img903/1420/ixg7OM.png" name="iframe_a">
+        </div>
+        <div class="col-sm-12 sidenav">
+            <div>
+                <iframe height="125px" scrolling="no" frameborder="no"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/123103514&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
 </iframe>
+            </div>
 
+        </div>
+    </div>
 </div>
+
+<footer class="container-fluid text-center">
+    <p>Made by Nicholas Rigordaeva</p>
+</footer>
+
 </body>
 </html>
+
